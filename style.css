@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: myMdFont;
+  src: url('/PlusJakartaSans-Medium.ttf');
+}
+@font-face{
+  font-family: myFont;
+  src: url('/PlusJakartaSans-VariableFont_wght.ttf');
+}
+@font-face{
+  font-family: myBoldFont;
+  src: url('/PlusJakartaSans-ExtraBold.ttf');
+}
+:root{
+  --Red: hsl(1, 90%, 64%);
+--Blue: hsl(219, 85%, 26%);
+--White: hsl(0, 0%, 100%);
+--Very-light-grayish-blue: hsl(210, 60%, 98%);
+--Light-grayish-blue-1: hsl(211, 68%, 94%);
+--Light-grayish-blue-2: hsl(205, 33%, 90%);
+--Grayish-blue: hsl(219, 14%, 63%);
+--Dark-grayish-blue: hsl(219, 12%, 42%);
+--Very-dark-blue: hsl(224, 21%, 14%);
+}
+body{
+  background: var(--Very-light-grayish-blue);
+  font-family: myFont;
+}
+.first-p{
+  color: var(--Very-dark-blue);
+}
+.sp{
+  width: 30px;
+  padding:0 5px;
+  height: 30px;
+  vertical-align: middle;
+  background: var(--Blue);
+}
+nav button{
+  color: var(--Dark-grayish-blue);
+  cursor: pointer;
+}
+section{
+  background: var(--Light-grayish-blue-1);
+  padding: 15px 10px;
+  gap: 10px;
+  font-size: 15px;
+}
+section{
+  color: var(--Grayish-blue);
+  font-weight: 500;
+  font-family: myMdFont;
+}
+.name {
+  color: var(--Dark-grayish-blue);
+  font-family: myBoldFont;
+}
+.name:hover {
+  color: var(--Blue);
+}
+.spec{
+  font-family: myMdFont;
+}
+.spec:hover{
+  color: var(--Blue);
+}
+.time{
+  font-size: 14px;
+}
+.dot{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: var(--Red);
+  display: inline-block;
+}
+.group{
+  color: var(--Blue);
+  font-family: myMdFont;
+}
+.preview{
+  font-family: myMdFont;
+}
+.preview:hover{
+  background: var(--Light-grayish-blue-1);
+}
+.btn:hover{
+  color: var(--Blue);
+}

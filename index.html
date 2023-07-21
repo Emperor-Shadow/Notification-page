@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="tailwind-all.css">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="px-4 py-1 sm:mx-40 sm:mt-8 ">
+  
+  <div class="sm:bg-white sm:p-8 sm:rounded-lg sm:shadow-md">
+  
+<nav class="w-100 h-16 flex justify-between items-center text-xl">
+  <p class="font-extrabold first-p">Notifications <span class="text-center text-white inline-block rounded-lg sp">3</span></p>
+  <button class="text-sm btn">Mark all as read</button>
+</nav>
+  
+  
+<section class="flex justify-apart mb-2 items-center rounded-lg seen">
+  <img src="avatar-mark-webber.webp" alt="" class="h-12 w-12">
+  <div class="w-100">
+  <b class="font-extrabold name">Mark Webber</b> reacted to your recent post <b class="font-bold spec">My first tournament today!</b> 
+   <span class="dot"></span>
+  <br>
+ <span class="inline-block time"> 1m ago </span>
+
+ </div>
+</section>
+
+<section class="flex justify-apart items-center rounded-lg mb-2 seen">
+  <img src="avatar-angela-gray.webp" alt="" class="h-12 w-12">
+  <div class="w-100">
+  <b class="font-extrabold name">Angela Gray</b> followed you  <span class="dot"></span>
+  <br>
+ <span class="inline-block time"> 5m ago </span>
+ </div>
+</section>
+
+
+<section class="flex justify-apart mb-2 items-center rounded-lg seen">
+  <img src="avatar-jacob-thompson.webp" alt="" class="h-12 w-12">
+  <div class="">
+  <b class="font-extrabold name">Jacob Thompson</b> has joined your group<b class="font-bold group"> Chess Club</b>  <span class="dot"></span>
+  <br>
+ <span class="inline-block time"> 1 day ago </span>
+ </div>
+</section>
+
+
+<section class="flex justify-apart bg-transparent rounded-lg mb-2">
+  <img src="avatar-rizky-hasanuddin.webp" alt="" class="h-12 w-12">
+  <div class="">
+  <b class="font-extrabold name">Rizky Hasanuddin</b> sent you a private message
+  <br>
+   <span class="inline-block time"> 5 days ago </span>
+   
+  <div class="preview border border-black px-5 py-3 mt-2 rounded-lg">
+    <p class="text-sm">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+  I'm already having lots of fun and improving my game.</p>
+  </div>
+ </div>
+</section>
+ 
+ 
+<section class="flex justify-apart bg-transparent rounded-lg mb-2">
+  <img src="avatar-kimberly-smith.webp" alt="" class="h-12 w-12">
+  <div class="">
+  <b class="font-extrabold name">Kimberly Smith</b> commented on your picture
+  <br>
+   <span class="inline-block time"> 1 week ago </span>
+ </div>
+ <span class="inline-block h-14 w-16 rounded-lg">
+   <img src="image-chess.webp" alt="" class="chess">
+ </span>
+</section>
+
+<section class="flex justify-apart mb-2 rounded-lg bg-transparent">
+  <img src="avatar-nathan-peterson.webp" alt="" class="h-12 w-12">
+  <div class="">
+  <b class="font-extrabold name">Nathan Peterson</b> reacted to your recent post <b class="font-bold spec">5 end-game strategies to increase your win rate</b> 
+  <br>
+ <span class="inline-block time"> 2 weeks ago </span>
+
+ </div>
+</section>
+
+
+<section class="flex justify-apart mb-2 items-center rounded-lg bg-transparent">
+  <img src="avatar-anna-kim.webp" alt="" class="h-12 w-12">
+  <div class="">
+  <b class="font-extrabold name">Anna Kim</b> left the group<b class="font-bold group"> Chess Club</b>
+  <br>
+ <span class="inline-block time"> 2 weeks ago </span>
+ </div>
+</section>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
